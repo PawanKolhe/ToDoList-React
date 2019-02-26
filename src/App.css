@@ -1,0 +1,35 @@
+.App {
+  text-align: left;
+}
+
+.App{
+  padding: 0% 20%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.ToDoItem p{
+  flex: 1;
+}
+
+.btn {
+  border: none;
+  background: #BDC3C7;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #b0b6ba;
+}
+
+@media (max-width:900px){
+  .App{
+    padding: 0% 10%;
+  }
+}
+
+@media (max-width:500px){
+  .App{
+    padding: 0% 0%;
+  }
+}
